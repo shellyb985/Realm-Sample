@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Italic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="StudentIdentifier" rowHeight="64" id="KGk-i7-Jjw" customClass="StudentCellTableViewCell" customModule="Realm_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o4K-3G-gzg">
+                        <rect key="frame" x="3" y="3" width="314" height="57.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVC-Ij-fnI">
+                                <rect key="frame" x="5" y="5" width="97" height="17.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="School" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hP-gO-c0Y">
+                                <rect key="frame" x="5" y="37" width="40.5" height="15.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age: 05" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kb3-RZ-Q5g">
+                                <rect key="frame" x="257" y="5" width="52" height="18"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Prg-oN-08x">
+                                <rect key="frame" x="261" y="34.5" width="50" height="20"/>
+                                <color key="backgroundColor" red="0.072123939979999996" green="0.22257084979722219" blue="0.39693082600000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="12"/>
+                                <state key="normal" title="Delete">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lvI-FD-J8c">
+                                <rect key="frame" x="205" y="34.5" width="50" height="20"/>
+                                <color key="backgroundColor" red="0.072123939979999996" green="0.22257084979722219" blue="0.39693082600000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="6wh-df-tfr"/>
+                                    <constraint firstAttribute="width" constant="50" id="Po3-kz-0MQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="12"/>
+                                <state key="normal" title="Edit">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="0hP-gO-c0Y" secondAttribute="bottom" constant="5" id="0se-xs-DFw"/>
+                            <constraint firstAttribute="bottom" secondItem="Prg-oN-08x" secondAttribute="bottom" constant="3" id="0we-9H-JIt"/>
+                            <constraint firstItem="0hP-gO-c0Y" firstAttribute="leading" secondItem="o4K-3G-gzg" secondAttribute="leading" constant="5" id="9Hl-iT-Nvd"/>
+                            <constraint firstItem="Prg-oN-08x" firstAttribute="height" secondItem="lvI-FD-J8c" secondAttribute="height" id="O0r-0G-6fT"/>
+                            <constraint firstAttribute="trailing" secondItem="Prg-oN-08x" secondAttribute="trailing" constant="3" id="Pjs-z4-a2L"/>
+                            <constraint firstItem="Kb3-RZ-Q5g" firstAttribute="top" secondItem="o4K-3G-gzg" secondAttribute="top" constant="5" id="XDU-bV-hao"/>
+                            <constraint firstItem="dVC-Ij-fnI" firstAttribute="top" secondItem="o4K-3G-gzg" secondAttribute="top" constant="5" id="YGr-2I-pqa"/>
+                            <constraint firstItem="0hP-gO-c0Y" firstAttribute="top" secondItem="dVC-Ij-fnI" secondAttribute="bottom" constant="14.5" id="dHl-1U-OHk"/>
+                            <constraint firstItem="Kb3-RZ-Q5g" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dVC-Ij-fnI" secondAttribute="trailing" constant="10" id="eNL-fy-iYY"/>
+                            <constraint firstItem="lvI-FD-J8c" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0hP-gO-c0Y" secondAttribute="trailing" constant="10" id="kjW-go-RD7"/>
+                            <constraint firstItem="Prg-oN-08x" firstAttribute="leading" secondItem="lvI-FD-J8c" secondAttribute="trailing" constant="6" id="lpG-Gf-IKo"/>
+                            <constraint firstAttribute="trailing" secondItem="Kb3-RZ-Q5g" secondAttribute="trailing" constant="5" id="q7H-fl-w7M"/>
+                            <constraint firstAttribute="bottom" secondItem="lvI-FD-J8c" secondAttribute="bottom" constant="3" id="qBG-sF-Zhe"/>
+                            <constraint firstItem="Prg-oN-08x" firstAttribute="width" secondItem="lvI-FD-J8c" secondAttribute="width" id="r2Q-JE-hFK"/>
+                            <constraint firstItem="dVC-Ij-fnI" firstAttribute="leading" secondItem="o4K-3G-gzg" secondAttribute="leading" constant="5" id="yir-3c-hOO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="o4K-3G-gzg" secondAttribute="trailing" constant="3" id="8vJ-wx-zKh"/>
+                    <constraint firstItem="o4K-3G-gzg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="AQq-j8-VEQ"/>
+                    <constraint firstItem="o4K-3G-gzg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="3" id="FE4-PL-Xgq"/>
+                    <constraint firstAttribute="bottom" secondItem="o4K-3G-gzg" secondAttribute="bottom" constant="3" id="wKS-dg-xcV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnDelete" destination="Prg-oN-08x" id="c7i-ws-d80"/>
+                <outlet property="btnEdit" destination="lvI-FD-J8c" id="6cg-V0-xzT"/>
+                <outlet property="lblSchoolName" destination="0hP-gO-c0Y" id="KLD-V8-glO"/>
+                <outlet property="lblStudentAge" destination="Kb3-RZ-Q5g" id="qli-bw-rxz"/>
+                <outlet property="lblStudentName" destination="dVC-Ij-fnI" id="JuN-SD-X2N"/>
+                <outlet property="vwContainer" destination="o4K-3G-gzg" id="rx0-4Q-dlh"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
