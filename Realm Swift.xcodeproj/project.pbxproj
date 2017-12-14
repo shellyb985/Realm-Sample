@@ -9,33 +9,31 @@
 /* Begin PBXBuildFile section */
 		6C59DB5F5A6D3722FC9BA94C /* Pods_Realm_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB586BB006F45D9842BEE1C /* Pods_Realm_Swift.framework */; };
 		C3BD98A41FDF9F650085FEF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD98A31FDF9F650085FEF9 /* AppDelegate.swift */; };
-		C3BD98A61FDF9F650085FEF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD98A51FDF9F650085FEF9 /* ViewController.swift */; };
 		C3BD98A91FDF9F650085FEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3BD98A71FDF9F650085FEF9 /* Main.storyboard */; };
 		C3BD98AB1FDF9F650085FEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3BD98AA1FDF9F650085FEF9 /* Assets.xcassets */; };
 		C3BD98AE1FDF9F650085FEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3BD98AC1FDF9F650085FEF9 /* LaunchScreen.storyboard */; };
-		C3BD98B61FDFA7710085FEF9 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD98B51FDFA7700085FEF9 /* RealmManager.swift */; };
 		C3BD98B71FDFA8620085FEF9 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BD98B91FDFA8620085FEF9 /* Realm.framework */; };
 		C3BD98B81FDFA8620085FEF9 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BD98BA1FDFA8620085FEF9 /* RealmSwift.framework */; };
-		C3BD98BC1FDFABDC0085FEF9 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD98BB1FDFABDC0085FEF9 /* Student.swift */; };
-		C3BD98BF1FDFD8000085FEF9 /* StudentCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BD98BD1FDFD8000085FEF9 /* StudentCellTableViewCell.swift */; };
-		C3BD98C01FDFD8000085FEF9 /* StudentCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3BD98BE1FDFD8000085FEF9 /* StudentCellTableViewCell.xib */; };
+		C3C303F71FE2A3CD00D3D2A8 /* Cell in Resources */ = {isa = PBXBuildFile; fileRef = C3C303F51FE2A3CC00D3D2A8 /* Cell */; };
+		C3C303F81FE2A3CD00D3D2A8 /* ViewController in Resources */ = {isa = PBXBuildFile; fileRef = C3C303F61FE2A3CC00D3D2A8 /* ViewController */; };
+		C3C303FA1FE2A42200D3D2A8 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = C3C303F91FE2A42200D3D2A8 /* Model */; };
+		C3C303FC1FE2A42A00D3D2A8 /* Manager in Resources */ = {isa = PBXBuildFile; fileRef = C3C303FB1FE2A42A00D3D2A8 /* Manager */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		68D2BE22B13CD9F11FA50598 /* Pods-Realm Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Realm Swift/Pods-Realm Swift.release.xcconfig"; sourceTree = "<group>"; };
 		C3BD98A01FDF9F650085FEF9 /* Realm Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Realm Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3BD98A31FDF9F650085FEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3BD98A51FDF9F650085FEF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3BD98A81FDF9F650085FEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3BD98AA1FDF9F650085FEF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3BD98AD1FDF9F650085FEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3BD98AF1FDF9F650085FEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3BD98B51FDFA7700085FEF9 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		C3BD98B91FDFA8620085FEF9 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3BD98BA1FDFA8620085FEF9 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3BD98BB1FDFABDC0085FEF9 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
-		C3BD98BD1FDFD8000085FEF9 /* StudentCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCellTableViewCell.swift; sourceTree = "<group>"; };
-		C3BD98BE1FDFD8000085FEF9 /* StudentCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentCellTableViewCell.xib; sourceTree = "<group>"; };
+		C3C303F51FE2A3CC00D3D2A8 /* Cell */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Cell; sourceTree = "<group>"; };
+		C3C303F61FE2A3CC00D3D2A8 /* ViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewController; sourceTree = "<group>"; };
+		C3C303F91FE2A42200D3D2A8 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		C3C303FB1FE2A42A00D3D2A8 /* Manager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Manager; sourceTree = "<group>"; };
 		CFB586BB006F45D9842BEE1C /* Pods_Realm_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realm_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F966C3D11E53ED87B3281B /* Pods-Realm Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Realm Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Realm Swift/Pods-Realm Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,15 +93,14 @@
 			isa = PBXGroup;
 			children = (
 				C3BD98A31FDF9F650085FEF9 /* AppDelegate.swift */,
-				C3BD98A51FDF9F650085FEF9 /* ViewController.swift */,
+				C3C303F91FE2A42200D3D2A8 /* Model */,
+				C3C303FB1FE2A42A00D3D2A8 /* Manager */,
+				C3C303F51FE2A3CC00D3D2A8 /* Cell */,
+				C3C303F61FE2A3CC00D3D2A8 /* ViewController */,
 				C3BD98A71FDF9F650085FEF9 /* Main.storyboard */,
 				C3BD98AA1FDF9F650085FEF9 /* Assets.xcassets */,
 				C3BD98AC1FDF9F650085FEF9 /* LaunchScreen.storyboard */,
 				C3BD98AF1FDF9F650085FEF9 /* Info.plist */,
-				C3BD98B51FDFA7700085FEF9 /* RealmManager.swift */,
-				C3BD98BB1FDFABDC0085FEF9 /* Student.swift */,
-				C3BD98BD1FDFD8000085FEF9 /* StudentCellTableViewCell.swift */,
-				C3BD98BE1FDFD8000085FEF9 /* StudentCellTableViewCell.xib */,
 			);
 			path = "Realm Swift";
 			sourceTree = "<group>";
@@ -170,10 +167,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3C303FA1FE2A42200D3D2A8 /* Model in Resources */,
 				C3BD98AE1FDF9F650085FEF9 /* LaunchScreen.storyboard in Resources */,
+				C3C303FC1FE2A42A00D3D2A8 /* Manager in Resources */,
 				C3BD98AB1FDF9F650085FEF9 /* Assets.xcassets in Resources */,
 				C3BD98A91FDF9F650085FEF9 /* Main.storyboard in Resources */,
-				C3BD98C01FDFD8000085FEF9 /* StudentCellTableViewCell.xib in Resources */,
+				C3C303F81FE2A3CD00D3D2A8 /* ViewController in Resources */,
+				C3C303F71FE2A3CD00D3D2A8 /* Cell in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,11 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3BD98A61FDF9F650085FEF9 /* ViewController.swift in Sources */,
 				C3BD98A41FDF9F650085FEF9 /* AppDelegate.swift in Sources */,
-				C3BD98BF1FDFD8000085FEF9 /* StudentCellTableViewCell.swift in Sources */,
-				C3BD98B61FDFA7710085FEF9 /* RealmManager.swift in Sources */,
-				C3BD98BC1FDFABDC0085FEF9 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="64" estimatedRowHeight="64" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="qfi-FQ-rGG">
-                                <rect key="frame" x="0.0" y="79" width="375" height="536"/>
+                                <rect key="frame" x="0.0" y="79.5" width="375" height="535.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="KL8-8E-2yi">
@@ -59,8 +59,8 @@
                                 </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rMA-LQ-Djb">
-                                <rect key="frame" x="0.0" y="40" width="375" height="29"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <rect key="frame" x="0.0" y="40" width="375" height="29.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -79,7 +79,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YTo-Tt-qlu">
-                                <rect key="frame" x="0.0" y="79" width="375" height="588"/>
+                                <rect key="frame" x="0.0" y="79.5" width="375" height="587.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iOP-XU-hFE">
                                         <rect key="frame" x="10" y="150" width="355" height="215"/>
@@ -235,6 +235,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="29.600000000000001" y="20.239880059970016"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dLN-f0-SiS">
+            <objects>
+                <viewController id="FUf-5c-5st" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="auk-rV-d5n">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Student Detail" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9zi-r6-JU2">
+                                <rect key="frame" x="0.0" y="40" width="375" height="29.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dcU-VN-BSm">
+                                <rect key="frame" x="0.0" y="79.5" width="375" height="587.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.072123939979999996" green="0.40781933069999998" blue="0.39693082600000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9zi-r6-JU2" firstAttribute="trailing" secondItem="od8-Am-oiK" secondAttribute="trailing" id="Rd0-RO-V0X"/>
+                            <constraint firstItem="dcU-VN-BSm" firstAttribute="bottom" secondItem="od8-Am-oiK" secondAttribute="bottom" id="TW8-af-Yia"/>
+                            <constraint firstItem="dcU-VN-BSm" firstAttribute="top" secondItem="9zi-r6-JU2" secondAttribute="bottom" constant="10" id="b40-MR-ch4"/>
+                            <constraint firstItem="dcU-VN-BSm" firstAttribute="leading" secondItem="od8-Am-oiK" secondAttribute="leading" id="czX-NH-hmW"/>
+                            <constraint firstItem="9zi-r6-JU2" firstAttribute="leading" secondItem="od8-Am-oiK" secondAttribute="leading" id="mQA-Lb-MQU"/>
+                            <constraint firstItem="dcU-VN-BSm" firstAttribute="trailing" secondItem="od8-Am-oiK" secondAttribute="trailing" id="nbf-dF-Xek"/>
+                            <constraint firstItem="9zi-r6-JU2" firstAttribute="top" secondItem="od8-Am-oiK" secondAttribute="top" constant="20" id="vqC-cP-Tqa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="od8-Am-oiK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p0m-79-Ogl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="674" y="20"/>
         </scene>
     </scenes>
 </document>
